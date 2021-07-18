@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Snake
 {
@@ -6,7 +10,22 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Point p1 = new Point();
+
+                p1.x = 2;
+                p1.y = 4;
+                p1.sym = '*';
+                p1.Draw();
+            Point p2 = new Point();
+            p2.x = 4;
+            p2.y = 8;
+            p2.sym = '#';
+            p2.Draw();
+             
+
+            Console.ReadLine();
         }
+
+       
     }
 }
