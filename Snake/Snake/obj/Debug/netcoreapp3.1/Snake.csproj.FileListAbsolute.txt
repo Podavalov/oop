@@ -4,10 +4,10 @@ C:\Users\admin\Desktop\oop\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconf
 C:\Users\admin\Desktop\oop\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
 C:\Users\admin\Desktop\oop\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.dll
 C:\Users\admin\Desktop\oop\Snake\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
-C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.dll
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
 C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
+C:\Users\admin\Desktop\oop\Snake\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.AssemblyReference.cache
