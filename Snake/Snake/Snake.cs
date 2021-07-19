@@ -21,6 +21,14 @@ namespace Snake
             }
         }
 
+        public Point GetNextPoint()
+        {
+            Point head = pList.Last();
+            Point nextPoint = new Point(head);
+            nextPoint.Move(1, direction);
+            return nextPoint;
+        }
+
         internal void Move()
         {
             Point tail = pList.First();
@@ -31,12 +39,22 @@ namespace Snake
                 head.Draw();
         }
 
-        public Point GetNextPoint()
+        internal bool Eat(Point food)
         {
             Point head = pList.Last();
-            Point nextPoint = new Point(head);
-            nextPoint.Move(1, direction);
-            return nextPoint;
+            if (head.IsHit(food))
+            {
+                food.sym = head.sym;
+                pList.Add(food);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
+           
         }
 
         public void HandlKey(ConsoleKey key)
